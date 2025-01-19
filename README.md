@@ -4,6 +4,7 @@ Sea container terminal management system MVP
 Этот проект показывает упрощенную схему управления данными контейнерного терминала. 
 
 Построенная система состоит из:
+
 а) Табличного пространства sct_tables, управляемого СУБД Postgres БД - sea_terminal:
 1. port_calls
 2. ships
@@ -13,6 +14,7 @@ Sea container terminal management system MVP
 б) Панели управления pgadmin4
 
 в) Cервисов, написанных на языке Golang:
+
 1. system-bootstrapper - сервис, отвечающий за запуск и координирование всей системы
 2. ship-generator-service - генерация данных судов
 3. ship-arrival-service - обработка поступающих данных
@@ -25,6 +27,7 @@ Sea container terminal management system MVP
 Запуск программы осуществляется через сервис system-bootstrapper.
 
 В задачи системы входит:
+
 а) Обработка поступающих запросов о кораблях, прибывающих в порт.
 
 б) Проверка, есть ли запись о корабле в таблице ships
