@@ -54,3 +54,7 @@ All services are stored as **Docker images** and run on the host system using **
 3. **Ship Departure Handling**:
    - Frees up berths when ships leave the port.
    - Updates the ship's `location` to "Out".
+
+## Table Structure
+
+The table structure is provided in the file [data_structure.pdf](data_structure.pdf).
